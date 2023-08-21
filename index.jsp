@@ -44,19 +44,23 @@ button {
     }   
 </style>   
 </head>    
-<body>    
+<body>
+    <div class="Container">
     <form>  
         <div class="container">   
             <label>Username : </label>   
-            <input type="text" placeholder="Enter Username" name="username" required>  
+            <input id="userName" type="text" placeholder="Enter Username" name="username" required>
+            <p class="userNameMarkUp"></p>  
             <label>Password : </label>   
-            <input type="password" placeholder="Enter Password" name="password" required>  
+            <input id="password" type="password" placeholder="Enter Password" name="password" required>  
+            <p  class="passMarkUp"></p>  
             <button type="submit">Login</button>   
-            <input type="checkbox" checked="checked"> Remember me   
-            <button type="button" class="cancelbtn"> Cancel</button>   
+            <input id="checkBox" type="checkbox" checked="checked"> Remember me 
+            <button id="cancelButton" type="button" class="cancelbtn"> Cancel</button>   
             Forgot <a href="#"> password? </a>   
-        </div>   
+        </div>
     </form>
+    </div>
     <script src="index.js"></script>   
 </body>     
 </html>  
