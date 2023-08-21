@@ -6,7 +6,7 @@
 <style>   
 Body {  
   font-family: Calibri, Helvetica, sans-serif;  
-  background-color: rgb(130, 13, 13);  
+  background-color: rgb(250, 13, 13);  
 }  
 button {   
        background-color: #4CAF50;   
@@ -15,7 +15,7 @@ button {
         padding: 15px;   
         margin: 10px 0px;   
         border: none;   
-        cursor: pointer;   
+        cursor: pointer;  
          }   
  form {   
         border: 3px solid #f1f1f1;   
