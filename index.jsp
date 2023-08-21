@@ -37,7 +37,19 @@ button {
         margin: 10px 5px;  
     }   
         
-     
+    .hidden{
+        display:none;
+    } 
+    .welcom{
+        
+        position:absolute;
+      color:rgb(6, 100, 69);
+      top:50vh;
+      left:50vw;
+      
+    
+    }
+
  .container {   
         padding: 25px;   
         background-color: lightblue;  
@@ -45,8 +57,8 @@ button {
 </style>   
 </head>    
 <body>
-    <div class="Container">
-    <form>  
+    
+    <form class="login-form ">  
         <div class="container">   
             <label>Username : </label>   
             <input id="userName" type="text" placeholder="Enter Username" name="username" required>
@@ -54,13 +66,14 @@ button {
             <label>Password : </label>   
             <input id="password" type="password" placeholder="Enter Password" name="password" required>  
             <p  class="passMarkUp"></p>  
-            <button type="submit">Login</button>   
+            <button type="submit" class="loginBtn">Login</button>   
             <input id="checkBox" type="checkbox" checked="checked"> Remember me 
             <button id="cancelButton" type="button" class="cancelbtn"> Cancel</button>   
             Forgot <a href="#"> password? </a>   
         </div>
     </form>
-    </div>
+    <h1 class="welcom hidden">welcome!!!</h1>
+ 
     <script src="index.js"></script>   
 </body>     
 </html>  
